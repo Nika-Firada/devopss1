@@ -4,7 +4,7 @@ on:
     branches:
       - main
 
-job:
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -19,7 +19,7 @@ job:
 
     - name: Install dependencies
       run: npm install
-      
+
     - name: Run tests
       run: npm test
 
